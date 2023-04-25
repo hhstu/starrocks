@@ -1,7 +1,8 @@
 name: 'release docker images'
 
 on:
-  tag:
+  push:
+    tags:
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
