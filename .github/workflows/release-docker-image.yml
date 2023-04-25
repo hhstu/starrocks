@@ -11,7 +11,7 @@ concurrency:
 
 env:
   RELEASE_VERSION: ${{ github.ref_name }}
-  REGISTRY: ghcr.io/${{ github.repository }}
+  REGISTRY: basefly
 
 jobs:
   release-docker-images:
